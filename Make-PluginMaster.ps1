@@ -11,8 +11,8 @@ $pluginBlacklistUrl = "https://goatcorp.github.io/DalamudAssets/UIRes/bannedplug
 $wc = New-Object system.Net.WebClient
 $blackList = $wc.downloadString($pluginBlacklistUrl) | ConvertFrom-Json
 
-$dlTemplateInstall = "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/{0}/{1}/latest.zip"
-$dlTemplateUpdate = "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/{0}/{1}/latest.zip"
+$dlTemplateInstall = "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Test/master/{0}/{1}/latest.zip"
+$dlTemplateUpdate = "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Test/master/{0}/{1}/latest.zip"
 
 $apiLevel = 6
 
